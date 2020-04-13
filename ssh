@@ -1,0 +1,12 @@
+mkdir -p /home/ec2-user/.ssh \
+&& chmod 700 /home/ec2-user/.ssh \
+&& touch /home/ec2-user/.ssh/authorized_keys \
+&& chmod 600 /home/ec2-user/.ssh/authorized_keys \
+&& echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCGlU\
+ke0nWskkGYePYX/DBrWKix8+hm04XFvEkWgW65EJgt12TTAmV1S\
+Q2ohfZPGDNK11DpUmeY2jtqKsBqDg1Zw1CZgd8k46vlp3yIoAKf\
+BsSu3NWt9hTROoIU5hSDJt59a1r5u8yGpKU75U2G/oyj5O23J9k\
+8X2nK5iKJxeTIVnt4NEYzknLIiLZ1ap4NBVdPf0rtwYzdHnbd50\
+9Mw6uHnS3myWHM2L+3x18/p8DElTh0xgyHhZi3UmHrHM7rltXTX\
+AOPcPB3LSqRC3zSsvxiH0mBz8E1H2A+X2R5lbZ8/5JIrRwQa7Pg\
+u1ZH9HMC0MfWVdnin/JLmS3vTYLmJMtx" > /home/ec2-user/.ssh/authorized_keys
